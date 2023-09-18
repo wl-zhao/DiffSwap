@@ -1,0 +1,10 @@
+mtcnn==0.1.1
+tensorflow==2.13.0
+openai-clip==1.0.1
+easydict==1.10
+kornia==0.7.0
+dlib==19.24.2
+pytorch_lightning==1.4.2
+torchmetrics==0.6.0
+omegaconf==2.3.0
+einops==0.6.1
