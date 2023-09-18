@@ -7,7 +7,25 @@ This repository contains PyTorch implementation for paper "DiffSwap: High-Fideli
 
 [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_DiffSwap_High-Fidelity_and_Controllable_Face_Swapping_via_3D-Aware_Masked_Diffusion_CVPR_2023_paper.pdf)
 
+## Installation
+Please first install the environment following [stable-diffusion](https://github.com/CompVis/stable-diffusion), and then run `pip install -r requirements.txt`.
 
+Please download the checkpoints from [[here]](https://cloud.tsinghua.edu.cn/d/9575c106b9324df7bfe3/), and put them under the  `checkpoints/` folder. 
+The resulting file structure should be:
+
+```
+├── checkpoints
+│   ├── diffswap.pth
+│   ├── glint360k_r100.pth
+│   └── shape_predictor_68_face_landmarks.dat
+```
+
+## Inference
+We provide a sample code to perform face swapping given the portrait source and target images. Please put the source images and target images in `data/portrait_jpg` and run
+```
+python pipeline.py
+```
+the swapped results are saved in `data/portrait/swap_res_ori`.
 
 ## Citation
 If you find our work useful in your research, please consider citing:
