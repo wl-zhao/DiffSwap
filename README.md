@@ -10,7 +10,7 @@ This repository contains PyTorch implementation for paper "DiffSwap: High-Fideli
 ## Installation
 Please first install the environment following [stable-diffusion](https://github.com/CompVis/stable-diffusion), and then run `pip install -r requirements.txt`.
 
-Please download the checkpoints from [[here]](https://cloud.tsinghua.edu.cn/d/9575c106b9324df7bfe3/), and put them under the  `checkpoints/` folder. 
+Please download the checkpoints from [[here]](https://cloud.tsinghua.edu.cn/d/962ccd4b243442a3a144/?p=%2Fcheckpoints%2FDiffSwap&mode=list), and put them under the  `checkpoints/` folder. 
 The resulting file structure should be:
 
 ```
